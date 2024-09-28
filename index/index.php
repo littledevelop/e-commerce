@@ -1,9 +1,6 @@
 <?php
 // session_start();
-
 include("controller.php");
-
-
 $ob= new controller;
 
  if(!isset($_SESSION['id']))
